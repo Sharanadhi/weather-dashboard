@@ -1,0 +1,31 @@
+@use "./styles/variables" as *;
+@use "./styles/mixins" as *;
+@use "./styles/typography.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $black;
+  background-color: $alternative-white;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: $black;
+}
+
+a:hover,
+a:active {
+  color: $primary-text;
+}
