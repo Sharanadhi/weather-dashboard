@@ -2,16 +2,11 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/typography.scss" as *;
 
-.currentIcon {
-  padding-top: 2.4rem;
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  &__icon {
-    color: $primary-bg;
-  }
-  &__temperature {
-    color: $secorndary-text;
-  }
+  width: 100%;
+  background-color: $primary-grey;
+  padding: 2rem;
 }

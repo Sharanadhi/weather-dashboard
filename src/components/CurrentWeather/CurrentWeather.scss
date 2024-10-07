@@ -2,16 +2,17 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/typography.scss" as *;
 
-.currentIcon {
-  padding-top: 2.4rem;
+.currentWeather {
+  padding: 2rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  &__icon {
-    color: $primary-bg;
-  }
   &__temperature {
     color: $secorndary-text;
+  }
+  &__text,
+  &__description {
+    color: $primary-text;
   }
 }

@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  color: $black;
+  color: $primary-black;
   background-color: $alternative-white;
 }
 
@@ -22,7 +22,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: $black;
+  color: $secorndary-text;
 }
 
 a:hover,

@@ -1,0 +1,29 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/typography.scss" as *;
+
+.weatherItems {
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  &__card {
+    min-width: 12rem;
+    background-color: $primary-text;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid $primary-grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__text {
+    color: $alternative-white;
+  }
+  &__icon {
+    color: $primary-bg;
+  }
+}
