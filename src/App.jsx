@@ -44,7 +44,7 @@ function App() {
     if (lat && long) {
       getWeather();
     }
-  }, [lat, long]);
+  }, [lat, long,]);
 
   return (
     <>
